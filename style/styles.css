@@ -1,0 +1,65 @@
+body {
+  background-color: aquamarine;
+}
+
+#container {
+  display: flex;
+  font-family: "Caveat", cursive;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-name {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+#city {
+  width: 400px;
+  box-sizing: border-box;
+  padding: 8px;
+  align-self: center;
+}
+.location {
+  align-self: center;
+}
+
+.information {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  max-width: 400px;
+  text-align: center;
+}
+
+.city-name {
+  margin: 0px;
+}
+.condition {
+  margin-top: 10px;
+
+  font-size: 20px;
+}
+
+.display {
+  margin-top: 10px;
+  font-size: 20px;
+}
+
+.none {
+  display: none;
+}
+
+.card {
+  max-width: 400px;
+}
+
+.icon {
+  align-self: center;
+  border-radius: 50px;
+  background-color: aquamarine;
+  width: 100px;
+  margin: auto;
+  top: -50px;
+  position: relative;
+  margin-bottom: -50px;
+}
